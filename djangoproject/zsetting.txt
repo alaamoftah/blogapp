@@ -1,0 +1,12 @@
+SQLShell
+CREATE DATABASE djangoproject_dev;
+
+edit setting.py database entries
+
+have venv ex. 
+c:\_pyapps\vEnv\scripts\activate.bat
+
+python manage.py makemigrations
+python manage.py migrate 
+python manage.py createsuperuser
+python manage.py runserver
